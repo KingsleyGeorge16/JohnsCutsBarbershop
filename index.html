@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary meta -->
+    <title>John's Cuts - Unisex Salon</title>
+    <meta name="title" content="Barbershop - Barbers & Hair Stylist">
+    <meta name="description" content="This barbershop website using HTML and CSS made by KingsleyGeorge">
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="./assets/img/flaticon.svg" type="image/svg+icon"> -->
+    <link rel="icon" href="./assets/img/logo.png" sizes="30x30" type="img/png">
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mediaqueries.css">
+    <!-- Flaticon -->
+    <link rel="stylesheet" href="./assets/css/flaticon.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Back To Top -->
+     <link rel="preload" as="image" href="./assets/img/banner.png">
+</head>
+<body id="back_to_top">
+    
+    <!--========Header Section===================================-->
+    <header class="header">
+        
+        <div class="head-top">
+            <div class="container">
+                <ul class="head-top-list">
+
+                    <li class="head-top-item">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <!-- <ion-icon name="call-outline" aria-hidden="true"></ion-icon> -->
+                        <p class="list-title">Call Us :</p>
+                        <a href="tel:+01564600534" class="list-link">+01-564-600-534</a>
+                    </li>
+
+                    <li class="head-top-item">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        <!-- <ion-icon name="time-outline" aria-hidden="true"></ion-icon> -->
+                        <p class="list-title">Opening Hours :</p>
+                        <p class="list-text">Sunday to Friday - 8am to 9pm</p>
+                    </li>
+
+                    <li>
+                        <ul class="social-media">
+
+                            <li>
+                                <div class="media-link">
+                                    <a href="https://www.facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <!-- <i class="fa fa-facebook"></i> -->
+                                    <!-- <ion-icon name="logo-facebook"></ion-icon> -->
+                                </div>
+                            </li>
+
+                            <li>
+                                <div href="#" class="media-link">
+                                    <a href="https://www.twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                                    <!-- <i class="fa fa-twitter"></i> -->
+                                    <!-- <ion-icon name="logo-twitter"></ion-icon> -->
+                                </div>
+                            </li>
+
+                            <li>
+                                <div href="#" class="media-link">
+                                    <a href="https://www.instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                                    <!-- <i class="fa fa-twitter"></i> -->
+                                    <!-- <ion-icon name="logo-twitter"></ion-icon> -->
+                                </div>
+                            </li>
+
+                            <li>
+                                <div href="#" class="media-link">
+                                    <a href="https://www.youtube" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                                    <!-- <i class="fa fa-youtube-play"></i> -->
+                                    <!-- <ion-icon name="logo-youtube-play"></ion-icon> -->
+                                </div>
+                            </li>
+
+                            <li>
+                                <div href="#" class="media-link">
+                                    <a href="https://www.google" target="_blank"><i class="fa fa-google"></i></a>
+                                    <!-- <i class="fa fa-globe"></i> -->
+                                    <!-- <ion-icon name="chatbubble-ellipses-outline"></ion-icon> -->
+                                </div>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="head-bottom" data-head>
+            <div class="container">
+
+               <a href="index.html" class="logo">
+                John's Cuts <span class="span">Unisex Salon</span>
+               </a> 
+
+               <nav class="navbar container" data-nav>
+                   <ul class="nav-list">
+
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link" data-nav-links>Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link" data-nav-links>Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#pricing" class="nav-link" data-nav-links>Pricing</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link" data-nav-links>Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#appointment" class="nav-link" data-nav-links>Appointment</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link" data-nav-links>Contact</a>
+                        </li>
+
+                   </ul>
+               </nav>
+
+               <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-btn>
+                <i class="fa fa-bars" name="menu-outline" aria-hidden="true "></i>
+               </button>
+
+               <!-- <a href="#" class="btnn has-before">
+                    <span class="span">Appointment</span>
+
+                     <i class="fa fa-arrow-right"></i>
+               </a> -->
+
+            </div>
+        </div>
+
+    </header>
+
+    <!--========Main Section===================================-->
+    <main>
+        <article>
+
+            <!-- Home Section -->
+             <section class="section home has-before has-bg-img active" id="home" aria-label="home"
+                    style="background: linear-gradient(rgba(91, 20, 2, 0.7), rgba(39, 18, 13, 0.7)), url(./assets/img/banner.png); background-repeat: no-repeat; background-position: center; background-size: cover;">                
+                <div class="container">
+
+                    <h1 class="h1 home-head">Barbers & Hair Stylists</h1>
+                    <p class="home-text">
+                        <span class="motto">Motto: Your Hair, Your Pride <br></span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aperiam aut explicabo architecto ex quisquam autem! Aut 
+                        numquam laboriosam illo placeat autem, quasi molestiae 
+                        nihil dolore tempora doloremque, obcaecati harum?
+                    </p>
+                    <a href="#" class="btnn has-before">
+                        <span class="span">Know More About Us</span>
+                        <i class="fa fa-right"></i>
+                    </a>
+    
+                </div>
+             </section>
+
+            <!-- Services Section -->
+             <section class="section service" id="services" aria-label="services">
+                <div class="container">
+
+                    <h2 class="h2 section-head text-center">We Provide The Best</h2>
+                    <p class="section-para text-center-p">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aperiam aut explicabo architecto ex quisquam autem! Aut 
+                        numquam laboriosam illo placeat autem, quasi molestiae 
+                        nihil dolore tempora doloremque, obcaecati harum?
+                    </p>
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class="fa fa-scissors"></i>
+                                    <i class="fi fi-brands-facebook"></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-head">Hair Cutting Style</a>
+                                </h3>
+
+                                <p class="card-para">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Similique labore saepe tenetur voluptatum consectetur
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <i class="fa fa-arrow-right" aria-label="true"></i>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class="fa fa-scissors"></i>
+                                    <i class="flaticon-shampoo"></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-head">Hair Washing</a>
+                                </h3>
+
+                                <p class="card-para">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Similique labore saepe tenetur voluptatum consectetur
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <i class="fa fa-arrow-right" aria-label="true"></i>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class="fa fa-scissors"></i>
+                                    <i class="flaticon-hot-stone"></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-head">Body Treatment</a>
+                                </h3>
+
+                                <p class="card-para">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Similique labore saepe tenetur voluptatum consectetur
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <i class="fa fa-arrow-right" aria-label="true"></i>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class="fa fa-scissors"></i>
+                                    <i class="flaticon-treatment"></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-head">Beauty & Spa</a>
+                                </h3>
+
+                                <p class="card-para">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Similique labore saepe tenetur voluptatum consectetur
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <i class="fa fa-arrow-right" aria-label="true"></i>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class="fa fa-scissors"></i>
+                                    <i class="flaticon-shaving-razer"></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-head">Stylist Shaving</a>
+                                </h3>
+
+                                <p class="card-para">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Similique labore saepe tenetur voluptatum consectetur
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <i class="fa fa-arrow-right" aria-label="true"></i>
+                                </a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+
+                                <div class="card-icon">
+                                    <i class="fa fa-scissors"></i>
+                                    <i class="flaticon-hair-dye"></i>
+                                </div>
+
+                                <h3 class="h3">
+                                    <a href="#" class="card-head">Multi Hair Colors</a>
+                                </h3>
+
+                                <p class="card-para">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                     Similique labore saepe tenetur voluptatum consectetur
+                                </p>
+
+                                <a href="#" class="card-btn" aria-label="more">
+                                    <i class="fa fa-arrow-right" aria-label="true"></i>
+                                </a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+             </section>
+
+            <!-- Pricing Section -->
+             <section class="section pricing has-bg-img has-before" id="pricing" aria-label="pricing"
+                    style="background: url(./assets/img/pricing.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;">
+                <div class="container">
+
+                    <h2 class="h2 section-head text-center">Amazing Pricing Plan</h2>
+                    <p class="section-para text-center">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Voluptates, nostrum nobis consequatur suscipit!
+                    </p>
+
+                    <div class="pricing-tab-wrapper">
+
+                        <ul class="tab-section">
+
+                            <li>
+                                <button class="pricing-btn active" data-pricing-btn="all">
+                                    <div class="btn-icon">
+                                        <i class="fa fa-scissors"></i>
+                                        <i class="flaticon-beauty-salon" aria-hidden="true"></i>
+                                    </div>
+
+                                    <p class="btn-text">All Pricing</p>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="pricing-btn" data-pricing-btn="beauty-spa">
+                                    <div class="btn-icon">
+                                        <i class="fa fa-scissors"></i>
+                                        <i class="flaticon-relax" aria-hidden="true"></i>
+                                    </div>
+
+                                    <p class="btn-text">Beauty & Spa</p>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="pricing-btn" data-pricing-btn="body-treatment">
+                                    <div class="btn-icon">
+                                        <i class="fa fa-scissors"></i>
+                                        <i class="flaticon-massage" aria-hidden="true"></i>
+                                    </div>
+
+                                    <p class="btn-text">Body Treatment</p>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="pricing-btn" data-pricing-btn="face-washing">
+                                    <div class="btn-icon">
+                                        <i class="fa fa-scissors"></i>
+                                        <i class="flaticon-spa" aria-hidden="true"></i>
+                                    </div>
+
+                                    <p class="btn-text">Face Washing</p>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="pricing-btn" data-pricing-btn="meditation">
+                                    <div class="btn-icon">
+                                        <i class="fa fa-scissors"></i>
+                                        <i class="flaticon-yoga" aria-hidden="true"></i>
+                                    </div>
+
+                                    <p class="btn-text">Meditation</p>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="pricing-btn" data-pricing-btn="shaving">
+                                    <div class="btn-icon">
+                                        <i class="fa fa-scissors"></i>
+                                        <i class="flaticon-razor-blade" aria-hidden="true"></i>
+                                    </div>
+
+                                    <p class="btn-text">Shaving</p>
+                                </button>
+                            </li>                            
+
+                        </ul>
+
+                        <ul class="grid-list">
+
+                            <!-- <li data-filter="shaving">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/img/pricing-1.jpg" width="90" height="90" alt="Hair Cutting & Fitting" class="img-cover">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-head">Hair Cutting & Fitting</h3>
+
+                                        <p class="card-para">Clean & Simple 30-40 mins</p>
+                                    </div>
+
+                                    <data value="89" class="card-price">$89</data>
+
+                                </div>
+                            </li> -->
+
+                            <li data-filter="shaving">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/img/pricing-1.jpg" width="90" height="90" alt="Hair Cutting & Fitting" class="img-holder">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-head">Hair Cutting & Fitting</h3>
+
+                                        <p class="card-para">Clean & Simple 30-40 mins</p>
+                                    </div>
+
+                                    <data value="89" class="card-price">$89</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="shaving">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/img/pricing-2.jpg" width="90" height="90" alt="Shaving & Facial" class="img-holder">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-head">Shaving & Facial</h3>
+
+                                        <p class="card-para">Clean & Simple 15-30 mins</p>
+                                    </div>
+
+                                    <data value="45" class="card-price">$45</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="face-washing">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/img/pricing-3.jpg" width="90" height="90" alt="Hair Color & Wash" class="img-holder">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-head">Hair Color & Wash</h3>
+
+                                        <p class="card-para">Clean & Simple 25-40 mins</p>
+                                    </div>
+
+                                    <data value="68" class="card-price">$68</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="body-treatment">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/img/pricing-3.jpg" width="90" height="90" alt="Body Massage" class="img-holder">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-head">Body Massage</h3>
+
+                                        <p class="card-para">Clean & Simple 40-60 mins</p>
+                                    </div>
+
+                                    <data value="98" class="card-price">$98</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="beauty-spa">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/img/pricing-3.jpg" width="90" height="90" alt="Beauty & Spa" class="img-holder">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-head">Beauty & Spa</h3>
+
+                                        <p class="card-para">Clean & Simple 25-60 mins</p>
+                                    </div>
+
+                                    <data value="78" class="card-price">$78</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="face-washing">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/img/pricing-4.jpeg" width="90" height="90" alt="Facial & Face Wash " class="img-holder">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-head">Facial & Face Wash</h3>
+
+                                        <p class="card-para">Clean & Simple 20-45 mins</p>
+                                    </div>
+
+                                    <data value="58" class="card-price">$58</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="body-treatment">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/img/pricing-3.jpg" width="90" height="90" alt="Backbone Massage" class="img-holder">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-head">Backbone Massage</h3>
+
+                                        <p class="card-para">Clean & Simple 35-50 mins</p>
+                                    </div>
+
+                                    <data value="88" class="card-price">$88</data>
+
+                                </div>
+                            </li>
+
+                            <li data-filter="meditation">
+                                <div class="pricing-card">
+
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/img/pricing-3.jpg" width="90" height="90" alt="Meditation & Massage" class="img-holder">
+                                    </figure>
+
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-head">Meditation & Massage</h3>
+
+                                        <p class="card-para">Clean & Simple 15-50 mins</p>
+                                    </div>
+
+                                    <data value="75" class="card-price">$75</data>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+             </section>
+
+            <!-- Gallery Section -->
+             <section class="section gallery" id="gallery" aria-label="photo-gallery">
+                <div class="container">
+
+                    <div class="head-container">
+
+                        <div class="">
+                            <h2 class="h2 section-head">Our Latest Gallery</h2>
+                            <p class="section-para">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                                ducimus labore deleniti mollitia eum ad adipisci.
+                            </p>
+                        </div>
+
+                        <a href="#" class="btnn has-before">
+                            <span class="span">More Of Our Gallery</span>
+                            <!-- <i class="fa fa-arrow-right"></i> -->
+                        </a>
+
+                    </div>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="gallery-card" style="border-radius: 5px;">
+
+                                <figure class="card-banner img-hold" style="--width: 422; --height: 550; border-radius: 5px;">
+                                    <img src="./assets/img/gallery-1.jpg" width="422" height="550" loading="lazy" alt="Hair Cutting" class="img-cover2">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-head">Hair Cutting</h3>
+                                    <p class="card-para">Barber & Salon Services</p>
+                                    <a href="#" class="card-btn" aria-label="Read More">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="gallery-card">
+
+                                <figure class="card-banner img-hold" style="--width: 422; --height: 550; border-radius: 5px;">
+                                    <img src="./assets/img/gallery-2.jpg" width="422" height="550" loading="lazy" alt="Shaving" class="img-cover2">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-head">Bread Shaving</h3>
+                                    <p class="card-para">Barber & Salon Services</p>
+                                    <a href="#" class="card-btn" aria-label="Read More">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="gallery-card">
+
+                                <figure class="card-banner img-hold" style="--width: 422; --height: 550; border-radius: 5px;">
+                                    <img src="./assets/img/gallery-3.jpg" width="422" height="550" loading="lazy" alt="Hair Dying" class="img-cover2">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-head">Hair Dying</h3>
+                                    <p class="card-para">Barber & Salon Services</p>
+                                    <a href="#" class="card-btn" aria-label="Read More">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="gallery-card">
+
+                                <figure class="card-banner img-hold" style="--width: 422; --height: 550; border-radius: 5px;">
+                                    <img src="./assets/img/gallery-4.jpg" width="422" height="550" loading="lazy" alt="Hair Wash" class="img-cover2">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-head">Hair Wash</h3>
+                                    <p class="card-para">Barber & Salon Services</p>
+                                    <a href="#" class="card-btn" aria-label="Read More">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+             </section>
+
+            <!-- Appointment Section -->
+            <section class="section book" id="appointment" aria-label="appointment">
+                <div class="container">
+
+                    <div class="book-card">
+
+                        <figure class="card-banner img-hold" style="--width: 250; --height: 774;">
+                            <img src="./assets/img/book-1.jpg" width="250" height="774" loading="lazy" alt="" class="img-cover2">
+                        </figure>
+
+                        <div class="card-content">
+
+                            <h2 class="h2 section-head">Book An Appointment</h2>
+                            <p class="section-para">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                fugit nostrum quod ipsam, praesentium porro velit.
+                            </p>
+
+                            <form action="" class="book-form">
+                                
+                                <div class="input-container">
+                                    <input type="text" name="name" placeholder="Your Full Name" class="input-field" required="required">
+                                    <input type="email" name="email-address" placeholder="Your Email Address" class="input-field" required="required">
+                                </div>
+
+                                <div class="input-container">
+                                    <input type="number" name="phone_number" placeholder="Your Phone Number" class="input-field" required="required">
+
+                                    <select name="category" class="input-field">
+
+                                        <option value="Select Category">Select Category</option>
+                                        <option value="Beauty & Spa">Beauty & Spa</option>
+                                        <option value="Body Massage">Body Massage</option>
+                                        <option value="Shaving & Facial">Shaving & Facial</option>
+                                        <option value="Hair Color">Hair Color</option>
+
+                                    </select>
+                                </div>
+
+                                <input type="date" name="date" class="input-field date" required="required">
+
+                                <textarea name="message" placeholder="Write Message" class="input-field" required="required"></textarea>
+
+                                <button type="submit" class="form-btn">
+                                    <span class="span">Book Appointment</span>
+                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                </button>
+
+                            </form>
+
+                        </div>
+
+                        <figure class="card-banner img-hold" style="--width: 250; --height: 774;">
+                            <img src="./assets/img/book-2.jpg" width="250" height="774" loading="lazy" alt="" class="img-cover2">
+                        </figure>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <!--========Footer Section===================================-->
+    <footer class="footer has-bg-img" id="contact" style="background: linear-gradient(rgba(35, 11, 5, 0.7), rgba(39, 18, 13, 0.7)), url(./assets/img/footer.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;">
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div class="footer-brand">
+
+                    <a href="index.html" class="logo">
+                        John's Cuts <span class="span">Unisex Salon</span>
+                    </a> 
+
+                    <form action="" class="input-container">
+
+                        <input type="email" name="email_address" placeholder="Your Email Address" class="email-input" required="required">
+
+                        <button type="submit" class="btnn has-before">
+                            <span class="span">Subscribe now</span>
+                            <!-- <i class="fa fa-arrow-right"></i> -->
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <div class="footer-social-media">
+
+                    <ul class="footer-media quick">
+
+                        <li>
+                            <p class="footer-media-head">Quick Links</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Our Services</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Meet Our Team</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Our Portfolio</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Need A Career?</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">News & Blog</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="footer-media serve">
+
+                        <li>
+                            <p class="footer-media-head">Services</p>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Hair Cutting</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Shaving & Design</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Hair Colors</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Beauty & Spa</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer-link has-before">Body Massage</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="footer-media blogs">
+
+                        <li>
+                            <p class="footer-media-head">Our Latest Blogs</p>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-hold" style="--width: 70; --height: 75;">
+                                    <img src="./assets/img/footer-blog-1.jpeg" width="70" height="75" loading="lazy" alt="How get rid of dandrough from my hair?" class="img-cover2">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3>
+                                        <a href="#" class="card-head">How get rid of dandrough from my hair?</a>
+                                    </h3>
+
+                                    <div class="card-date">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+
+                                        <time datetime="2024-09-16">16 Sept 2024</time>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+
+                                <figure class="card-banner img-hold" style="--width: 70; --height: 75;">
+                                    <img src="./assets/img/footer-blog-2.jpg" width="70" height="75" loading="lazy" alt="How to carve my hair smoothly?" class="img-cover2">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3>
+                                        <a href="#" class="card-head">How to carve my hair smoothly?</a>
+                                    </h3>
+
+                                    <div class="card-date">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+
+                                        <time datetime="2024-09-10">10 Sept 2024</time>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+                        
+
+                    </ul>
+
+                    <ul class="footer-media cont">
+
+                        <li>
+                            <p class="footer-media-head">Contact Us</p>
+                        </li>
+
+                        <li class="footer-media-item">
+                            <i class="fa fa-map-marker" aria-label="true"></i>
+
+                            <address class="contact-link">
+                                4689 Corpus Christi, Houston, Texas, USA.
+                            </address>
+                        </li>
+
+                        <li class="footer-media-item">
+                            <i class="fa fa-phone" aria-label="true"></i>
+
+                            <a href="tel:+01564600534" class="contact-link phone">+01-564-600-534</a>
+                        </li>
+
+                        <li class="footer-media-item">
+                            <i class="fa fa-clock-o" aria-label="true"></i>
+
+                            <span href="#" class="contact-link">Sunday to Friday - 8am to 9am</span>
+                        </li>
+
+                        <li class="footer-media-item">
+                            <i class="fa fa-envelope" aria-label="true"></i>
+
+                            <a href="mailto:kingsleygeorge751@gmail.com" class="contact-link">kingsleygeorge751@gmail.com</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">
+                    Copyright © <a href="#" class="copyright-link">John's Cuts</a> Unisex Salon. All Rights Reserved.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--========Back To The Top Btn===================================-->
+    <a href="#back_to_top" class="back-to-top-btn" aria-label="back to the top" data-back-to-top-btn>
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </a>
+
+
+    <!-- Custom JS Link -->
+    <script src="./assets/js/scripts.js"></script>
+
+</body>
+</html>
