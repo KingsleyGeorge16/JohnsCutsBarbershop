@@ -7,9 +7,10 @@
     /* color */
     --rich-black-forga-39_50: hsla(0, 0%, 5%, 0.5);
     --rich-black-forga-39: hsla(0, 0%, 5%);
-    --indian-yellow_20: hsla(36, 49%, 34%, 0.429);
     --indian-yellow_10: hsla(36, 61%, 58%, 0.1);
+    --indian-yellow_20: hsla(36, 49%, 34%, 0.429);
     --indian-yellow: hsla(36, 61%, 58%);
+    --indian: hsla(36, 61%, 58%);
     --harvest-gold: hsl(36, 66%, 53%);
     --eerie-black-1: hsl(0, 0%, 14%);
     --eerie-black-2: hsl(0, 0%, 12%);
@@ -26,6 +27,7 @@
     --white: hsl(0, 0%, 100%);
     --jet: hsl(0, 8%, 21%);
     --background-color: hsl(0, 0%, 0%);
+    --background: hsl(0, 0%, 4%);
 
     /* Topography */
     --ff-oswald : 'Oswald', sans-serif;
@@ -65,6 +67,10 @@
 /*------------------------------------------*\
     # Reset
 \*------------------------------------------*/
+
+head-top-list{
+    background: var(--background);
+}
 
 *,
 *::before,
@@ -149,11 +155,11 @@ body{
 }
 
 ::-webkit-scrollbar-track{
-    background: #000;
+    background: #ffffff;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: var(--indian-yellow);
+    background: #320d0dcf;
     transition: .3s ease;
     border-radius: 10px;
     cursor: pointer;
@@ -326,10 +332,12 @@ body{
 
 .head-top-list .media-link a{
     color: #fff;
-    font-size: 21px;
+    font-size: 20px;
     transition: var(--transition-1);
     /* cursor: pointer; */
 }
+
+
 
 .head-top-list .media-link a i{
     cursor: pointer;
@@ -354,7 +362,7 @@ body{
     position: fixed;
     top: -25px;
     margin-block-end: 150px;
-    background: var(--rich-black-forga-39);
+    background: var(--background);
     transform: translateY(-100%);
     height: 110px;
     animation: slideIn 0.5s ease forwards;
@@ -513,12 +521,6 @@ body{
     text-align: center;
 }
 
-.service-card .card-icon img{
-    width: 80px;
-    height: 70px;
-    margin-left: 120px;
-}
-
 .service-card .card-head{
     margin-block: 15px 12px;
     text-align: center;
@@ -541,7 +543,7 @@ body{
 
 .service-card .card-btn{
     color: var(--indian-yellow);
-    background: var(--background-color);
+    background: var(--background);
     width: 50px;
     height: 50px;
     border: 1.5px solid var(--indian-yellow);
@@ -608,10 +610,11 @@ body{
     font-family: var(--ff-rubik);
     font-size: var(--fs-14);
     font-weight: var(--fw-600);
-    text-transform: uppercase;
-    min-width: 170px;
+    text-transform: capitalize;
+    /* min-width: 150px; */
+    width: 60px;
     padding-block: 12px;
-    border: 2px solid var(--indian-yellow); 
+    border: 2px solid var(--platinum); 
     transition: var(--transition-1);
     border-radius: 5px;
 }
@@ -620,15 +623,9 @@ body{
     display: none;
 }
 
-.pricing-btn .btn-icon img{
-    width: 60px;
-    height: 55px;
-    margin-left: 55px;
-}
-
 .pricing-btn.active{
     background: var(--indian-yellow_20);
-    border-color: var(--indian-yellow);
+    border-color: var(--indian-yellow_20);
     color: var(--white);
 }
 
@@ -650,7 +647,7 @@ body{
 }
 
 .pricing-card{
-    background: var(--indian-yellow_10);
+    background: var(--indian-yellow_20);
     padding: 20px 25px;
     border-radius: var(--radius-5);
     display: flex;
@@ -783,7 +780,7 @@ body{
 }
 
 .book-card .card-content{
-    background: var(--indian-yellow);
+    background: var(--indian-yellow_20);
     padding: 80px 15px;
     text-align: center;
     color: var(--white);
@@ -799,7 +796,7 @@ body{
 
 .input-field{
     background: var(--background-color);
-    color: var(--davys-gray);
+    color: var(--white);
     min-height: 56px;
     padding-inline: 20px;
     border-radius: var(--radius-5);
@@ -858,15 +855,23 @@ textarea.input-field{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border: 2.5px solid var(--background-color);
+    border: 2.3px solid var(--background-color);
     padding: 15px;
     border-radius: var(--radius-5);
     transition: var(--transition-1);
 }
 
 .form-btn:is(:hover, :focus){
-    background: var(--indian-yellow_20);
+    background: transparent;
     color: var(--white);
+}
+
+.appoin-img{
+    border-radius: 15px 0 0 15px;
+}
+
+.appoin-img1{
+    border-radius: 0 15px 15px 0;
 }
 
 
@@ -875,6 +880,7 @@ textarea.input-field{
 \*------------------------------------------*/
 .footer{
     padding-block-end: 30px;
+    background: var(--background-color);
     margin-top: -8rem;
 }
 
@@ -1044,7 +1050,7 @@ a.contact-link:is(:hover, :focus){
     background: var(--background-color);
     text-align: center;
     padding: 15px;
-    color: #ffff;
+    color: #fff;
     border-radius: 5px;
     font-size: 16px;
 }
