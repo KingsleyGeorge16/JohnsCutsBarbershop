@@ -848,6 +848,15 @@ select.input-field,
     opacity: 0.85;
 }
 
+.appoin-img1{
+    border-radius: 0 15px 15px 0;
+}
+
+.appoin-img{
+    border-radius: 15px 0 0 15px;
+}
+
+
 textarea.input-field{
     /* width: 100%; */
     padding-block: 15px;
@@ -956,7 +965,7 @@ textarea.input-field{
 }
 
 .footer-link{
-    color: #c1c1c1;
+    color: #ffffff;
     font-family: var(--ff-rubik);
     font-weight: var(--fw-500);
     font-size: 16px;
@@ -968,7 +977,7 @@ textarea.input-field{
 .footer-link::before{
     position: static;
     padding: 2.5px;
-    background: var(--white_30);
+    background: var(--white);
     display: block;
     border-radius: 50%;
     transition: var(--transition-1);
@@ -983,11 +992,12 @@ textarea.input-field{
 }
 
 .footer-link:is(:hover, :focus){
-    color: var(--white);
+    color: var(--indian-yellow);
+    transform: translateX(7px);
 }
 
 .footer-link:is(:hover, :focus)::before{
-    background: var(--white);
+    background: var(--indian-yellow);
 }
 
 .blog-card{
@@ -1025,7 +1035,7 @@ textarea.input-field{
     gap: 5px;
     font-size: 16;
     text-transform: uppercase;
-    color: var(--white_50);
+    color: #c3c3c3;
 }
 
 .blog-card .card-date i{
@@ -1047,12 +1057,12 @@ textarea.input-field{
 }
 
 .contact-link{
-    color: var(--white_50);
+    color: var(--white);
     transition: var(--transition-1);
 }
 
 a.contact-link:is(:hover, :focus){
-    color: var(--white);
+    color: var(--indian-yellow);
 }
 
 .footer-bottom{
