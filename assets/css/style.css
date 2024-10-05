@@ -309,6 +309,16 @@ body{
     display: none;
 }
 
+.head-top-item p,
+.head-top-item a{
+    color: var(--white);
+}
+
+.head-top-item .fa-mobile-phone,
+.footer-media-item .fa-mobile-phone{
+    font-size: 30px;
+}
+
 .head-top-list,
 .head-top-list .social-media{
     display: flex;
@@ -337,6 +347,7 @@ body{
 
 .head-top-list .media-link a:hover{
     color: var(--indian-yellow);
+    transform: scale(1.1);
 }
 
 .head-bottom{
@@ -902,14 +913,18 @@ textarea.input-field{
     border-radius: var(--radius-5);
 }
 
-.footer .input-container:focus-within{
+/* .footer .input-container:focus-within{
     outline: 1.5px solid var(--white_30);
+} */
+
+.footer .email-input::placeholder{
+    color: var(--indian-yellow);
 }
 
 .footer .email-input{
     text-align: center;
     margin-block-end: 15px;
-    color: var(--white);
+    color: var(--indian-yellow);
     font-weight: 500;
     outline: none;
 }
