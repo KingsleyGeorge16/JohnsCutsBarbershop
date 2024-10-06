@@ -253,6 +253,10 @@ body{
     transition: var(--transition-2);
 }
 
+.btnn:hover{
+    color: var(--indian-yellow);
+}
+
 .btnn:is(:hover, :focus)::before{
     transform: skewY(-15deg) scale(2.5);
 }
@@ -1101,6 +1105,12 @@ a.contact-link:is(:hover, :focus){
     opacity: 0;
     visibility: hidden;
     transition: var(--transition-1);
+}
+
+.back-to-top-btn:hover{
+    background: transparent;
+    color: var(--harvest-gold);
+    border: 1.5px solid var(--harvest-gold);
 }
 
 .back-to-top-btn.active{
