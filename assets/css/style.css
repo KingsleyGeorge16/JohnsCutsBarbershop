@@ -7,8 +7,9 @@
     /* color */
     --rich-black-forga-39_50: hsla(0, 0%, 5%, 0.5);
     --rich-black-forga-39: hsla(0, 0%, 5%);
-    --indian-yellow_20: hsla(36, 49%, 34%, 0.429);
     --indian-yellow_10: hsla(36, 61%, 58%, 0.1);
+    --indian-yellow_20: hsla(36, 49%, 34%, 0.429);
+    --indian-yellow_30: hsla(36, 85%, 16%, 0.584);
     --indian-yellow: hsla(36, 61%, 58%);
     --harvest-gold: hsl(36, 66%, 53%);
     --eerie-black-1: hsl(0, 0%, 14%);
@@ -483,6 +484,11 @@ body{
     mix-blend-mode: multiply;
 }
 
+.home-head{
+    font-family: cursive;
+    font-weight: 500;
+}
+
 .home-text{
     color: var(--white);
     margin-block: 15px 40px;   
@@ -491,6 +497,7 @@ body{
 .motto{
     font-size: 25px;
     font-weight: 600;
+    font-family: fantasy;
 }
 
 /*------------------------------------------*\
@@ -798,7 +805,7 @@ body{
 }
 
 .book-card .card-content{
-    background: var(--indian-yellow);
+    background: #855b1d;
     padding: 80px 15px;
     text-align: center;
     color: var(--white);
@@ -814,7 +821,7 @@ body{
 
 .input-field{
     background: var(--background-color);
-    color: var(--davys-gray);
+    color: var(--white);
     min-height: 56px;
     padding-inline: 20px;
     border-radius: var(--radius-5);
@@ -824,7 +831,8 @@ body{
 }
 
 .input-field:focus{
-    outline: 3px solid var(--black_30);
+    color: var(--indian-yellow);
+    outline: 3px solid var(--background-color);
 }
 
 select.input-field{
@@ -889,7 +897,7 @@ textarea.input-field{
 }
 
 .form-btn:is(:hover, :focus){
-    background: var(--indian-yellow_20);
+    background: var(--indian-yellow_30);
     color: var(--white);
 }
 
